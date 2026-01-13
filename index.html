@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supriya Pandey - Software Developer & AI Enthusiast</title>
-    <meta name="description" content="Supriya Pandey - BTech Computer Engineering student passionate about AI/ML, Full-Stack Development & Cloud Computing.">
+    <title>Supriya Pandey - AI Engineer & Generative AI Developer</title>
+    <meta name="description" content="Supriya Pandey - BTech Computer Engineering student focused on AI, Generative AI, RAG Systems & LLM Applications.">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <style>
         * {
@@ -436,6 +436,25 @@
             color: white;
         }
 
+               .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .project-card:hover .project-image img {
+            transform: scale(1.1);
+        }
+
+        .project-image i {
+            transition: transform 0.4s ease;
+        }
+
+        .project-card:hover .project-image i {
+            transform: scale(1.2) rotate(10deg);
+        }
+
         .project-content {
             padding: 2rem;
         }
@@ -827,8 +846,8 @@
         </div>
         <div class="hero-container">
             <div class="hero-content">
-                <h2>Hi, I'm Supriya 👋<br>Building the Future with Code</h2>
-                <p class="subtitle">BTech Computer Engineering student passionate about full-stack development, AI/ML, and cloud computing. Turning innovative ideas into impactful digital solutions.</p>
+                <h2>Hi, I'm Supriya 👋<br>AI Engineer | Generative AI & RAG Systems Developer</h2>
+                <p class="subtitle">Computer Engineering student focused on building reliable, context-aware AI systems using LLMs, RAG, and agentic workflows.</p>
                 <div class="cta-buttons">
                     <a href="#" class="btn btn-primary" onclick="downloadResume()">
                         <i class="fas fa-download"></i> Download Resume
@@ -840,7 +859,6 @@
             </div>
             <div class="hero-image">
                 <div class="profile-pic">
-                    <!-- Replace 'your-photo.jpg' with the path to your actual photo -->
                     <img src="supriyaP.jpeg" alt="Supriya Pandey - Profile Picture" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
                     <i class="fas fa-user" style="display: none;"></i>
                 </div>
@@ -854,27 +872,27 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I'm a passionate Computer Engineering student at D Y Patil University, Pune, with an insatiable curiosity for technology and innovation. My journey in tech began with a simple "Hello World" and has evolved into building complex AI-driven applications that solve real-world problems.</p>
+                    <p>I am a BTech Computer Engineering student with a strong focus on Artificial Intelligence, Generative AI, and real-world LLM system design. My work revolves around understanding how large language models behave in practical applications and building systems that produce reliable, grounded, and explainable outputs.</p>
                     
-                    <p>I thrive on challenges and believe in the power of collaboration to create meaningful solutions. Whether it's developing intelligent insurance systems, building traffic prediction tools, or creating AI-powered educational apps, I approach each project with creativity and determination.</p>
+                    <p>I have hands-on experience with Retrieval-Augmented Generation (RAG), prompt engineering, and agentic AI systems. During my internship at Infosys Springboard, I worked with NLP and generative AI concepts, studied LLM limitations such as hallucinations and overconfidence, and explored how prompt structure and context size affect responses.</p>
                     
-                    <p>When I'm not coding, you'll find me exploring the latest tech trends, participating in hackathons and open source, or connecting fellow students. I believe that technology should be accessible and impactful, and I'm committed to using my skills to make a positive difference in the world.</p>
+                    <p>I enjoy designing AI systems that strictly rely on verified data sources, follow controlled reasoning flows, and clearly communicate uncertainty when information is missing. My goal is to work on AI products that are practical, trustworthy, and usable in real-world environments.</p>
                 </div>
                 <div class="about-stats">
                     <div class="stat-card">
-                        <span class="stat-number">Passionate</span>
-                        <span class="stat-label">BTech Student</span>
+                        <span class="stat-number">BTech</span>
+                        <span class="stat-label">Computer Engineering</span>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-number">5+</span>
+                        <span class="stat-number">3</span>
                         <span class="stat-label">Major Projects</span>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-number">10+</span>
-                        <span class="stat-label">Technologies</span>
+                        <span class="stat-number">18</span>
+                        <span class="stat-label">PRs Merged</span>
                     </div>
                     <div class="stat-card">
-                        <span class="stat-number">7+</span>
+                        <span class="stat-number">4</span>
                         <span class="stat-label">Certifications</span>
                     </div>
                 </div>
@@ -888,61 +906,31 @@
             <h2 class="section-title">Skills & Tech Stack</h2>
             <div class="skills-grid">
                 <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI & GenAI</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Large Language Models (LLMs)</span>
+                        <span class="skill-tag">Natural Language Processing (NLP)</span>
+                        <span class="skill-tag">Retrieval-Augmented Generation (RAG)</span>
+                        <span class="skill-tag">Agentic AI Systems</span>
+                        <span class="skill-tag">Prompt Engineering</span>
+                    </div>
+                </div>
+                <div class="skill-category">
                     <h3><i class="fas fa-code"></i> Programming Languages</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Python</span>
                         <span class="skill-tag">Java</span>
-                        <span class="skill-tag">JavaScript</span>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3><i class="fas fa-palette"></i> Frontend Development</h3>
+                    <h3><i class="fas fa-tools"></i> Frameworks & Tools</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">HTML5</span>
-                        <span class="skill-tag">Tailwind CSS</span>
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">Flutter</span>
-                        <span class="skill-tag">Bootstrap</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-server"></i> Backend Development</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Express</span>
-                        <span class="skill-tag">Django</span>
-                        <!-- <span class="skill-tag">Flask</span> -->
-                        <span class="skill-tag">REST APIs</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-database"></i> Database & Cloud</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Postgresql</span>
-                        <span class="skill-tag">Firebase</span>
-                        <span class="skill-tag">Firestore</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">Google Cloud</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-brain"></i> AI/ML & Data Science</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">scikit-learn</span>
-                        <span class="skill-tag">NumPy</span>
-                        <span class="skill-tag">Pandas</span>
-                        <span class="skill-tag">TensorFlow</span>
-                        <span class="skill-tag">Machine Learning</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Tools & Others</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">GitHub</span>
-                        <span class="skill-tag">Figma</span>
-                        <span class="skill-tag">VS Code</span>
-                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">LangChain</span>
+                        <span class="skill-tag">ChromaDB</span>
+                        <span class="skill-tag">Google Gemini API</span>
+                        <span class="skill-tag">Gradio</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Google Colab</span>
                     </div>
                 </div>
             </div>
@@ -956,25 +944,21 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-image">
-                        <i class="fas fa-shield-alt"></i>
+                        <img src="image1.png" alt="Context-Aware RAG Engine" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <i class="fas fa-database" style="display: none;"></i>
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">BimaRakshak AI</h3>
-                        <p class="project-description">AI-driven motor insurance risk prediction system using telematics data and machine learning algorithms to assess driver behavior and calculate personalized insurance premiums.</p>
+                        <h3 class="project-title">Context-Aware Retrieval-Augmented Knowledge Inference Engine</h3>
+                        <p class="project-description">Built a RAG-based system that generates responses strictly from locally provided documents. Designed a document ingestion pipeline with text chunking and vector embedding generation. Structured prompts so the LLM answers only from retrieved data and returns "I don't know" when information is missing.</p>
                         <div class="project-tags">
-                            <span class="project-tag">AI</span>
-                            <span class="project-tag">Machine Learning</span>
-                            <span class="project-tag">flutter</span>
-                            <span class="project-tag">Django</span>
-                            <span class="project-tag">Firebase</span>
-                            <span class="project-tag">GPS & IoT APIs</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">LangChain</span>
+                            <span class="project-tag">ChromaDB</span>
+                            <span class="project-tag">Google Gemini</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/supriya46788/Driving-Safer-Roads---AI-for-Motor-Insurance-Risk-Assessment" class="project-link">
+                            <a href="https://github.com/supriya46788/Context-Aware-Retrieval-Augmented-Knowledge-Inference-Engine" class="project-link">
                                 <i class="fab fa-github"></i> GitHub
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
                             </a>
                         </div>
                     </div>
@@ -982,48 +966,21 @@
                 
                 <div class="project-card">
                     <div class="project-image">
-                        <i class="fas fa-traffic-light"></i>
+                        <img src="image2.png" alt="Autonomous Crawling Agent" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <i class="fas fa-robot" style="display: none;"></i>
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">TrafficTelligence</h3>
-                        <p class="project-description">Flask-based smart traffic prediction and analysis tool that uses real-time data to optimize traffic flow and reduce congestion in urban areas.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Flask</span>
-                            <span class="project-tag">Python</span>
-                            <span class="project-tag">HTML5</span>
-                            <span class="project-tag">AI</span>
-                            <span class="project-tag">Machine Learning</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/supriya46788/TrafficTelligence" class="project-link">
-                                <i class="fab fa-github"></i> GitHub
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-coins"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Gold Price Prediction</h3>
-                        <p class="project-description">Machine learning model using historical data and economic indicators to forecast gold prices with high accuracy for investment decision-making.</p>
+                        <h3 class="project-title">Autonomous Crawling Web Intelligence Agent</h3>
+                        <p class="project-description">Designed an agentic AI system that plans actions and crawls multiple web pages autonomously. Implemented a reasoning loop where the agent evaluates page relevance before continuing or stopping. Added evidence-checking logic to ensure sufficient information exists before generating answers.</p>
                         <div class="project-tags">
                             <span class="project-tag">Python</span>
-                            <span class="project-tag">scikit-learn</span>
-                            <span class="project-tag">Pandas</span>
-                            <span class="project-tag">NumPy</span>
+                            <span class="project-tag">Google Gemini API</span>
+                            <span class="project-tag">BeautifulSoup</span>
+                            <span class="project-tag">Requests</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/supriya46788/Gold-Price-Prediction-ML" class="project-link">
+                            <a href="https://github.com/supriya46788/Autonomous-Crawling-Web-Intelligence-Agent" class="project-link">
                                 <i class="fab fa-github"></i> GitHub
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> View Model
                             </a>
                         </div>
                     </div>
@@ -1031,72 +988,22 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <i class="fas fa-question-circle"></i>
+                        <img src="image3.png" alt="Multi-Agent Podcast Pipeline" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <i class="fas fa-podcast" style="display: none;"></i>
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">AI-powered text summarizer</h3>
-                        <p class="project-description">AI-powered text summarizer application built using Node.js, Replit, the Hugging Face Inference API, and Postman, which Summarizes large text documents or articles efficiently.</p>
+                        <h3 class="project-title">Multi-Agent LLM-Orchestrated Podcast Generation Pipeline</h3>
+                        <p class="project-description">Built an end-to-end agentic AI system that converts a single blog or article URL into a complete podcast episode. Designed multiple LLM-powered agents responsible for content extraction, summarization, narration planning, and audio generation. Orchestrated agents to collaboratively generate podcast-style scripts from raw web content.</p>
                         <div class="project-tags">
-                            <span class="project-tag">JavaScript</span>
-                            <span class="project-tag">AI</span>
-                            <span class="project-tag">Node.js</span>
-                            <span class="project-tag">Postman</span>
-                            <span class="project-tag">Hugging Face Inference API</span>
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">Gradio</span>
+                            <span class="project-tag">CrewAI</span>
+                            <span class="project-tag">ElevenLabs</span>
+                            <span class="project-tag">Firecrawl</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/supriya46788/AI-Text-Summarizer" class="project-link">
+                            <a href="https://github.com/supriya46788/Multi-Agent-LLM-Orchestrated-Podcast-Generation-Pipeline" class="project-link">
                                 <i class="fab fa-github"></i> GitHub
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fas fa-mobile-alt"></i> Live Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-language"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">MediConnect</h3>
-                        <p class="project-description">Designed for healthcare facilities to manage patient data, doctor schedules, and appointment bookings. The application includes a portal for receptionists to register new patients and perform CRUD operations, and a doctor portal to view their patients and appointment analytics..</p>
-                        <div class="project-tags">
-                            <span class="project-tag">JavaScript</span>
-                            <span class="project-tag">AI</span>
-                            <span class="project-tag">Web APIs</span>
-                            <span class="project-tag">React</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/supriya46788/MediConnect" class="project-link">
-                                <i class="fab fa-github"></i> GitHub
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Try Live
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Text to Speech Converter</h3>
-                        <p class="project-description">Converts any text to speech using built-in browser capabilities, Works on most modern browsers (Chrome, Firefox, Edge, etc.), Simple and user-friendly interface, Adjustable speech rate for a custom experience.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">React</span>
-                            <span class="project-tag">D3.js</span>
-                            <span class="project-tag">Node.js</span>
-                            <span class="project-tag">MongoDB</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/supriya46788/Text-to-speech-converter" class="project-link">
-                                <i class="fab fa-github"></i> GitHub
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
                             </a>
                         </div>
                     </div>
@@ -1108,36 +1015,36 @@
     <!-- Achievements Section -->
     <section id="achievements" class="section">
         <div class="container">
-            <h2 class="section-title">Hackathons & Certifications</h2>
+            <h2 class="section-title">Experience & Certifications</h2>
             <div class="achievements-timeline">
                 <div class="timeline-item">
-                    <h3 class="achievement-title">🏆 BuildWithIndia Hackathon</h3>
-                    <p class="achievement-description">Ranked among the top 5,000 teams out of 25,000+ participants. Recognized for innovation, dedication, and technical excellence in the Build with India competition Finale at Google Office. developed innovative solution for real-world problems. Collaborated with a diverse team to create impactful technology solutions under tight deadlines.</p>
+                    <h3 class="achievement-title">🤖 Artificial Intelligence Intern — Infosys Springboard</h3>
+                    <p class="achievement-description">Worked with AI, NLP, and Generative AI concepts through hands-on exercises focused on text understanding and generation. Studied real-world behavior of LLM-based systems, including prompt sensitivity, context limitations, and response variation. Explored Retrieval-Augmented Generation (RAG) pipelines to reduce hallucinations and improve answer reliability.</p>
                 </div>
                 
                 <div class="timeline-item">
-                    <h3 class="achievement-title">🌟 GirlScript Summer of Code: contributer & Campus Ambassador</h3>
-                    <p class="achievement-description">Contributed in open-source projects under the GirlScript Summer of Code 2024 program, collaborated with developers and mentors to enhance coding skills and contribute to impactful projects. .</p>
+                    <h3 class="achievement-title">🌟 Open Source Contributor — GirlScript Summer of Code</h3>
+                    <p class="achievement-description">Contributed to large-scale open-source projects used by 3,900+ developers. Successfully merged 18 pull requests, including UI optimization, API enhancements, bug fixes, and documentation improvements. Ranked 23/1000+ contributors, earning 8 achievement badges based on contribution quality and consistency.</p>
                 </div>
                 
                 <div class="timeline-item">
-                    <h3 class="achievement-title">☁️ Google Cloud skill Boost Platform Certifications</h3>
-                    <p class="achievement-description">Completed comprehensive Google Cloud Platform training, gaining expertise in cloud computing, serverless architecture, and scalable application deployment.</p>
+                    <h3 class="achievement-title">📜 Artificial Intelligence Foundation Certification</h3>
+                    <p class="achievement-description">Completed comprehensive AI foundation certification covering core concepts in artificial intelligence and machine learning fundamentals.</p>
                 </div>
                 
                 <div class="timeline-item">
-                    <h3 class="achievement-title">🤖 infosys Springboard Artificial intelligence Certifications </h3>
-                    <p class="achievement-description">Successfully completed the infosys Springboard Artificial intelligence Certifications, mastering Generative AI, Computer Vision, Machine Learning, Deep Learning, and NLP.</p>
+                    <h3 class="achievement-title">🤖 Introduction to Generative AI</h3>
+                    <p class="achievement-description">Successfully completed training on Generative AI principles, understanding the fundamentals of large language models and their applications.</p>
                 </div>
                 
                 <div class="timeline-item">
-                    <h3 class="achievement-title">🤖 Machine Learning Workshop Certificate</h3>
-                    <p class="achievement-description">Attended intensive machine learning workshop covering supervised learning, neural networks, and practical implementation of ML algorithms for real-world applications.</p>
+                    <h3 class="achievement-title">💬 Natural Language Processing Certification</h3>
+                    <p class="achievement-description">Gained expertise in NLP techniques, text processing, and language understanding through comprehensive certification program.</p>
                 </div>
                 
                 <div class="timeline-item">
-                    <h3 class="achievement-title">💡Google Girl Hackathon 2025</h3>
-                    <p class="achievement-description">selected for the Google Girl Hackathon 2025 innovation challenge for developing an AI-powered solution that addresses environmental sustainability through technology.</p>
+                    <h3 class="achievement-title">⛓️ Foundation – Introduction to LangChain (Python)</h3>
+                    <p class="achievement-description">Completed foundational training in LangChain framework for building LLM-powered applications and AI workflows using Python.</p>
                 </div>
             </div>
         </div>
@@ -1150,7 +1057,7 @@
             <div class="contact-container">
                 <div class="contact-info">
                     <h3>Get In Touch</h3>
-                    <p>I'm always excited to collaborate on innovative projects, discuss technology trends, or explore new opportunities. Whether you're looking for a passionate developer, want to chat about AI/ML, or just say hello - I'd love to hear from you!</p>
+                    <p>I'm always excited to collaborate on innovative AI projects, discuss LLM systems and RAG architectures, or explore new opportunities. Whether you're looking for someone passionate about reliable AI, want to chat about Generative AI, or just say hello - I'd love to hear from you!</p>
                     
                     <div class="social-links">
                         <a href="https://www.linkedin.com/in/supriyapandey595/" class="social-link" target="_blank">
@@ -1162,18 +1069,10 @@
                         <a href="mailto:supriyadpandey502@gmail.com" class="social-link">
                             <i class="fas fa-envelope"></i>
                         </a>
-                        <a href="https://www.instagram.com/supriyapandey595/" class="social-link" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://x.com/Supriya595" class="social-link" target="_blank">
-                            <i class="fab fa-twitter"></i>
-                        </a>
                     </div>
                     
                     <div class="contact-details">
-                        <p><i class="fas fa-map-marker-alt"></i> Pune, Maharashtra, India</p>
                         <p><i class="fas fa-envelope"></i> supriyadpandey502@gmail.com</p>
-                        <p><i class="fas fa-phone"></i> +91 78208 46560</p>
                     </div>
                 </div>
                 
@@ -1228,7 +1127,6 @@
     </button>
 
     <script>
-        // Theme toggle functionality
         function toggleTheme() {
             const body = document.body;
             const themeIcon = document.querySelector('.theme-toggle i');
@@ -1236,25 +1134,20 @@
             if (body.getAttribute('data-theme') === 'dark') {
                 body.removeAttribute('data-theme');
                 themeIcon.className = 'fas fa-moon';
-                localStorage.removeItem('theme');
             } else {
                 body.setAttribute('data-theme', 'dark');
                 themeIcon.className = 'fas fa-sun';
-                // Store theme preference (note: this won't persist in Claude.ai environment)
             }
         }
 
-        // Initialize theme on page load
         function initTheme() {
-            // Check for saved theme preference or default to light mode
-            const savedTheme = null; // localStorage not available in Claude.ai
+            const savedTheme = null;
             if (savedTheme === 'dark') {
                 document.body.setAttribute('data-theme', 'dark');
                 document.querySelector('.theme-toggle i').className = 'fas fa-sun';
             }
         }
 
-        // Mobile menu toggle
         function toggleMobileMenu() {
             const navLinks = document.querySelector('.nav-links');
             const mobileMenuIcon = document.querySelector('.mobile-menu i');
@@ -1268,7 +1161,6 @@
             }
         }
 
-        // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -1279,7 +1171,6 @@
                         block: 'start'
                     });
                     
-                    // Close mobile menu if open
                     const navLinks = document.querySelector('.nav-links');
                     const mobileMenuIcon = document.querySelector('.mobile-menu i');
                     if (navLinks.classList.contains('active')) {
@@ -1290,7 +1181,6 @@
             });
         });
 
-        // Scroll to top functionality
         function scrollToTop() {
             window.scrollTo({
                 top: 0,
@@ -1298,7 +1188,6 @@
             });
         }
 
-        // Show/hide scroll to top button
         window.addEventListener('scroll', function() {
             const scrollButton = document.querySelector('.scroll-to-top');
             if (window.pageYOffset > 300) {
@@ -1308,39 +1197,22 @@
             }
         });
 
-        // Contact form submission
         function handleSubmit(event) {
             event.preventDefault();
             
-            // Get form data
             const formData = new FormData(event.target);
             const name = formData.get('name');
-            const email = formData.get('email');
-            const subject = formData.get('subject');
-            const message = formData.get('message');
             
-            // Simulate form submission
             alert(`Thank you ${name}! Your message has been received. I'll get back to you soon!`);
             
-            // Reset form
             event.target.reset();
         }
 
-        // Download resume functionality
-        // function downloadResume() {
-        //     // In a real implementation, this would download an actual resume file
-        //     alert('Resume download started! (In a real implementation, this would download your actual resume PDF)');
-        // }
-
         function downloadResume() {
-             const pdfUrl = 'Supriya Pandey Resume_.pdf'; 
-             const link = document.createElement('a');
-             link.href = pdfUrl;
-             link.download = 'MyResume.pdf'; 
-             link.click();
+             const pdfUrl = 'https://drive.google.com/file/d/1mtKi7dQBOD8rLaYQTg9ZfN4vOUSg0maA/view?usp=drive_link';
+             window.open(pdfUrl, '_blank');
         }
 
-        // Intersection Observer for animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -100px 0px'
@@ -1354,30 +1226,24 @@
             });
         }, observerOptions);
 
-        // Observe elements for animation
         document.addEventListener('DOMContentLoaded', function() {
-            // Initialize theme
             initTheme();
             
-            // Observe sections for animations
             const sections = document.querySelectorAll('.section');
             sections.forEach(section => {
                 observer.observe(section);
             });
 
-            // Observe cards and other elements
             const cards = document.querySelectorAll('.project-card, .skill-category, .stat-card, .timeline-item');
             cards.forEach(card => {
                 observer.observe(card);
             });
 
-            // Add stagger animation to project cards
             const projectCards = document.querySelectorAll('.project-card');
             projectCards.forEach((card, index) => {
                 card.style.animationDelay = `${index * 0.1}s`;
             });
 
-            // Add typing animation to hero text
             const heroTitle = document.querySelector('.hero-content h1');
             if (heroTitle) {
                 heroTitle.style.overflow = 'hidden';
@@ -1386,7 +1252,6 @@
             }
         });
 
-        // Add navbar background on scroll
         window.addEventListener('scroll', function() {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 50) {
@@ -1402,7 +1267,6 @@
             }
         });
 
-        // Add parallax effect to floating icons
         window.addEventListener('scroll', function() {
             const scrolled = window.pageYOffset;
             const parallaxElements = document.querySelectorAll('.floating-icon');
@@ -1414,18 +1278,15 @@
             });
         });
 
-        // Copy email to clipboard functionality
         function copyEmail() {
-            const email = 'supriya.pandey@example.com';
+            const email = 'supriyadpandey502@gmail.com';
             navigator.clipboard.writeText(email).then(function() {
                 alert('Email copied to clipboard!');
             });
         }
 
-        // Add click handlers for social links
         document.addEventListener('DOMContentLoaded', function() {
-            // Add click event to email social link to copy email
-            const emailLinks = document.querySelectorAll('a[href="mailto:supriya.pandey@example.com"]');
+            const emailLinks = document.querySelectorAll('a[href="mailto:supriyadpandey502@gmail.com"]');
             emailLinks.forEach(link => {
                 link.addEventListener('click', function(e) {
                     e.preventDefault();
